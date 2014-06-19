@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WordCounter</title>
+	<!-- Meta Tags -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="This is simple tool where you can count characters as well as words of any text">
+	<meta name="author" content="Harsh Kothari">
+	<meta name="keywords" content="wordcount, character count, counter">
+
+	<!-- Facebook MetaTags -->
+	<meta property="og:title" content="WordCounter By Harsh Kothari"/>
+	<meta property="og:url" content="http://harshkothari410/github.io/wordcounter">
+	<meta property="og:site_name" content="WordCounter">
+	<meta property="og:description" content="This is simple tool where you can count characters as well as words of any text">
+
+	<!-- Stylesheet -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+	<!-- JavaScript -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/counter.js"></script>
+</head>
+
+<body>
+	<div class="jumbotron" align="center">
+		<h1>WordCounter</h1>
+		<p>This is simple tool where you can count characters as well as words of any text</p>
+	</div>
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-8">
+				<textarea name="paragraph" class="form-control" id="paragraph" rows="15"></textarea>
+				<div class="form-group" align="center" style="margin-top:15px;">
+					<button type="button" class="btn btn-success btn-lg" id="submitinfo">Submit</button>
+				</div>
+			</div>
+
+			<div class="col-sm-4">
+				<div class="thumbnail">
+					<div class="caption" align="center">
+						<h3>Character Count</h3>
+						<h4 class="text-info" id="charcount">0</h4>
+					</div>
+
+					<div class="caption" align="center">
+						<h3>Word Count</h3>
+						<h4 class="text-info" id="wordcount">0</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+		<div class="container navbar-text" align="center">
+			<h5>Created By Harsh Kothari @MIT License</h5>
+		</div>
+	</nav>
+</body>
+</html>
