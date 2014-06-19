@@ -28,27 +28,18 @@
 </head>
 
 <body>
-	<div id="fb-root"></div>
-	<script>
-		(function(d, s, id) {
-			var js, fjs = d.getElementsByTagName(s)[0];
-			if (d.getElementById(id)) return;
-			js = d.createElement(s); js.id = id;
-			js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=728449423880122&version=v2.0";
-			fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));
-	</script>
 	<div class="jumbotron" align="center">
 		<h1>WordCounter</h1>
 		<p>This is simple tool where you can count characters as well as words of any text</p>
-		<a href="https://twitter.com/share" class="social-share twitter-share-button" data-url="http://harshkothari410.github.io/wordcounter/" data-text="This is simple tool where you can count characters as well as words of any text!" data-via="harshkothari410" data-hashtags="wordcounter">Tweet</a>
-		<div class="fb-share-button" data-href="http://harshkothari410.github.io/wordcounter/" data-type="button_count"></div>
+		<div>
+			<a href="https://twitter.com/share" class="social-share twitter-share-button" data-url="http://harshkothari410.github.io/wordcounter/" data-text="This is simple tool where you can count characters as well as words of any text!" data-via="harshkothari410" data-hashtags="wordcounter" >Tweet</a>
+		</div>
 	</div>
 	
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-8">
-				<textarea name="paragraph" class="form-control" id="paragraph" rows="14"></textarea>
+				<textarea name="paragraph" class="form-control" id="paragraph" rows="14" placeholder="Write your Text / Paste your text then hit submit button"></textarea>
 				<div class="form-group" align="center" style="margin-top:15px;">
 					<button type="button" class="btn btn-success btn-lg" id="submitinfo">Submit</button>
 				</div>
