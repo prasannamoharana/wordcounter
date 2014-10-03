@@ -1,4 +1,4 @@
 wordcounter
 ===========
 
-Simple tool to count words and characters
+Simple tool to count words and characters...great & nice
